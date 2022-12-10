@@ -367,6 +367,14 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -1022,7 +1030,7 @@ section {
   color: #343642;
   font-weight: 600;
   margin: 0 0 20px 0;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   display: inline-block;
   transition: 0.3s;
@@ -1030,7 +1038,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
   color: #343642B2;
 }
@@ -1995,7 +2003,7 @@ section {
 
 @media (max-width: 640px) {
   .hero h2 {
-    font-size: 36px;
+    font-size: 25px;
   }
 
   .hero .btn-get-started,
@@ -2037,12 +2045,12 @@ section {
 .hero .icon-box .title {
   font-weight: 600;
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .hero .icon-box p {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -2788,7 +2796,7 @@ section {
 }
 
 .rectengle h2 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .btn-get-started.signup {
@@ -2820,14 +2828,14 @@ section {
 }
 
 .sales-box .title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   padding: 20px 0px;
   color: #343642;
 }
 
 .sales-box .des {
-  font-size: 20px;
+  font-size: 16px;
   padding-bottom: 20px;
   color: rgba(52, 54, 66, 0.7);
 }
@@ -2849,7 +2857,7 @@ section {
 }
 
 .payment h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -2860,19 +2868,19 @@ section {
 }
 
 .heading-text {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .heading-des {
-  font-size: 20px;
+  font-size: 16px;
   color: #343642B2;
 }
 
 .useful-links {
   display: flex;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 20px;
+  color: darkgray;
+  font-size: 13px;
   font-weight: 500;
   align-items: center;
   justify-content: center;
@@ -3188,7 +3196,6 @@ input[type='password'] {
   box-shadow: 0px 10px 30px 5px rgba(38, 47, 64, 0.05);
   border-radius: 30px;
   padding: 20px 30px;
-  margin: 30px;
 }
 
 .field-icon {
@@ -3202,11 +3209,12 @@ input[type='password'] {
 }
 
 .login a {
-  color: #5B94FF;
+  color: darkgray;
+
 }
 
 .login .useful-links li a {
-  color: #5B94FF;
+  color: darkgray;
 }
 
 .login-form {
@@ -3217,10 +3225,21 @@ input[type='password'] {
   padding: 50px 0px;
 }
 
+.lowfees {
+  width: 90%;
+}
+
+.legal {
+  font-size: 13px;
+  color: darkgray;
+}
 
 /* =========== Mobile ========== */
 
 @media screen and (max-width: 425px) {
+  .lowfees {
+    width: 35%;
+  }
 
   .img-bg {
     margin: 10px;
@@ -3250,7 +3269,7 @@ input[type='password'] {
   }
 
   .hero .icon-box .title {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .hero .icon-box p {
@@ -3258,7 +3277,6 @@ input[type='password'] {
   }
 
   .rectengle {
-    text-align: center;
     margin-bottom: 20px;
   }
 
@@ -3283,7 +3301,7 @@ input[type='password'] {
   }
 
   .payment h2 {
-    font-size: 22px;
+    font-size: 15px;
   }
 
   .rec-box {
@@ -3295,7 +3313,11 @@ input[type='password'] {
   }
 
   .heading-text {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  .heading-des {
+    font-size: 15px;
   }
 
   .progressbar {
@@ -3381,11 +3403,15 @@ input[type='password'] {
   }
 
   .rec-box img {
-    width: 100%;
+    width: 80%;
   }
 
   .rectengle p {
-    text-align: justify;
+    text-align: left;
+  }
+
+  .low_fees {
+    text-align: center;
   }
 
 }
