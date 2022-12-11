@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nefentus</title>
+  <title>Nefentus - Custom Payments</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,7 +50,6 @@
     </div><!-- End Logo -->
 
 
-    <button class="btn btn-primary pro_btn">Create New Product</button>
 
     <div class="d-flex product-header-btn">
       <button class="logout save"><i class="ri-save-2-fill"></i></button>
@@ -66,7 +65,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link collapsed" href="index.html">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -84,7 +83,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="custom-payments.html">
+        <a class="nav-link " href="custom-payments.html">
           <i class="bi bi-cash"></i>
           <span>Custom Payments</span>
         </a>
@@ -234,7 +233,7 @@
       </ul>
     </nav><!-- End Icons Navigation -->
 
-  </aside><!-- End Sidebar-->
+  </aside>
 
   <main id="main" class="main">
 
@@ -250,73 +249,102 @@
               <div class="card">
 
                 <div class="card-body">
-                  <div class="row">
+                  <h5>Choose currency</h5>
 
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="radio-with-Icon mb-3">
+                        <p class="radioOption-Item">
+                          <input type="radio" name="BannerTypes" id="BannerType1" value="true"
+                            class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false">
+                          <label for="BannerType1">
+                            <img src="./assets/img/bitcoin.png" alt="">
+                          </label>
+                        </p>
+
+                        <p class="radioOption-Item">
+                          <input type="radio" name="BannerTypes" id="BannerType2" value="false"
+                            class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false">
+                          <label for="BannerType2">
+                            <img src="./assets/img/ethereum.png" alt="">
+                          </label>
+                        </p>
+                        <p class="radioOption-Item">
+                          <input type="radio" name="BannerTypes" id="BannerType3" value="false"
+                            class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false">
+                          <label for="BannerType3">
+                            <img src="./assets/img/ripple.png" alt="">
+                          </label>
+                        </p>
+                        <p class="radioOption-Item">
+                          <input type="radio" name="BannerTypes" id="BannerType4" value="false"
+                            class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false">
+                          <label for="BannerType4">
+                            <img src="./assets/img/tether.png" alt="">
+                          </label>
+                        </p>
                       </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
+                      <div class="mt-3 mx-2">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
                       </div>
                     </div>
                   </div>
+
+                  <div class="custom-pay">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="mx-3">
+                          <p class="dollar"><span class="symbol">$</span> 550</p>
+                          <p class="dollar"><span class="symbol">BTC</span> 435</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mx-2">
+                      <div class="col-lg-4 col-4">
+                        <p class="number">7</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">8</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">9</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">4</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">5</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">6</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">1</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">2</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">3</p>
+                      </div>
+                      <div class="col-lg-8 col-8">
+                        <p class="number">0</p>
+                      </div>
+                      <div class="col-lg-4 col-4">
+                        <p class="number">.</p>
+                      </div>
+                      <div class="col-lg-12">
+                        <button class="btn btn-info qr-code"><i class="bi bi-qr-code-scan"></i> Generate QR
+                          Code</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
                 </div>
 
               </div>

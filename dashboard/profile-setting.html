@@ -42,15 +42,16 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
 
-    <div class="d-flex align-items-center ">
+    <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
+        <img class="mini-logo" src="assets/img/mini.png" alt="">
+        <img class="main-logo" src="assets/img/logo.png" alt="">
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
 
-    <button class="btn btn-primary pro_btn">Create New Product</button>
+
 
     <div class="d-flex product-header-btn">
       <button class="logout save"><i class="ri-save-2-fill"></i></button>
@@ -66,7 +67,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link collapsed" href="index.html">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -90,7 +91,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="profile-setting.html">
+        <a class="nav-link " href="profile-setting.html">
           <i class="bi bi-exclamation-octagon"></i>
           <span>Support</span>
         </a>
@@ -99,7 +100,7 @@
     </ul>
 
     <nav class="header-nav">
-      <ul class="d-flex align-items-center justify-content-center">
+      <ul class="d-flex align-items-center pl-3">
 
         <li class="nav-item dropdown">
 
@@ -238,103 +239,179 @@
 
   <main id="main" class="main">
 
-    <section class="section dashboard products">
+    <section class="section pro-settings">
+
       <div class="row">
 
-        <!-- Left side columns -->
-        <div class="col-lg-12">
-          <div class="row">
-
-            <!-- Reports -->
-            <div class="col-lg-12">
-              <div class="card">
-
-                <div class="card-body">
-                  <div class="row">
-
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="pro-box">
-                        <img class="pro-img" src="./assets/img/pro-img.png" alt="">
-                        <div class="d-flex  align-items-center">
-                          <img src="./assets/img/pro-icon.png" alt="">
-                          <p class="pro-title">Copy of Copy of Sales Institut-...</p>
-                        </div>
-                        <p class="pro-des">Sales Institut-Masterclass</p>
-                        <p class="pro-price">30.000,00 € (Netto)</p>
-                        <div class="buttons">
-                          <button class="btn btn-info">EDIT</button>
-                          <button class="btn btn-outline-info">WATCH</button>
-                          <button class="btn btn-outline-info">DELETE</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+        <div class="col-lg-3">
+          <div class="card">
+            <p class="tab-head">Profile Settings</p>
+            <div class="card-body">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">Profil</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">Personal Information</button>
+                <button class="nav-link" id="v-pills-cominfo-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-cominfo" type="button" role="tab" aria-controls="v-pills-cominfo"
+                  aria-selected="false">Company Information</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                  aria-selected="false">Change Password</button>
               </div>
-            </div><!-- End Reports -->
-
+            </div>
 
           </div>
-        </div><!-- End Left side columns -->
+
+        </div>
+
+        <div class="col-lg-9">
+          <div class="card">
+            <p class="tab-head text-start tabcontent">Profil</p>
+            <div class="card-body">
+
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <form action="">
+                    <div class="row">
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Vor-und Nachname</label>
+                          <input type="text" class="form-control" id="name" placeholder="Stephan Walouch">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">E-Maill-Adresse</label>
+                          <input type="email" class="form-control" id="email" placeholder="office@salesinstitut.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="phone" class="form-label">Rufnummer fur Supportanfragen (optional)</label>
+                          <input type="text" class="form-control" id="phone"
+                            placeholder="Rufnummer fur Supportanfragen">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label for="uname" class="form-label">Benutzername</label>
+                          <input type="text" class="form-control" id="uname" placeholder="Saleslnstitut">
+                        </div>
+                        <div class="mb-3">
+                          <label for="business" class="form-label">Firma</label>
+                          <input type="text" class="form-control" id="business" placeholder="M.W.L Sales Institut">
+                        </div>
+                        <div class="mb-3">
+                          <label for="supportemail" class="form-label">Support E-Mail-Addresse</label>
+                          <input type="email" class="form-control" id="supportemail"
+                            placeholder="Support@salesinstitut.com">
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+
+                  <div class="row">
+                    <p>Logo</p>
+                    <div class="col-lg-6">
+
+                      <div class="logo-view">
+                        <i class="bi bi-x"></i>
+                        <img src="./assets/img/image30.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <!-- Upload Area -->
+                      <div id="uploadArea" class="upload-area">
+                        <!-- Header -->
+                        <div class="upload-area__header">
+                          <p class="upload-area__paragraph">
+                            <strong class="upload-area__tooltip">
+                              <span class="upload-area__tooltip-data"></span> <!-- Data Will be Comes From Js -->
+                            </strong>
+                          </p>
+                        </div>
+                        <!-- End Header -->
+
+                        <!-- Drop Zoon -->
+                        <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+                          <span class="drop-zoon__icon">
+                            <i class="bi bi-images"></i>
+                          </span>
+                          <div class="ml-2">
+                            <p class="drop-zoon__paragraph">Ziehe dein Bild hierher, oder wahle ein Bild auf deinem
+                              Computer auf deinem Computer aus das du hochladen mochtest</p>
+                            <p class="drop-zoon__paragraph uploadtext">Dein Logo sollte im JPG order PNG Format und
+                              kleiner als 2MB sein Die
+                              empfohlene Bildgrde
+                              betragt 170x50 Pixel.</p>
+                          </div>
+                          <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
+                          <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image"
+                            draggable="false">
+                          <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+                        </div>
+                        <!-- End Drop Zoon -->
+
+                        <!-- File Details -->
+                        <div id="fileDetails" class="upload-area__file-details file-details">
+
+                          <div id="uploadedFile" class="uploaded-file">
+                            <div class="uploaded-file__icon-container">
+                              <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                              <span class="uploaded-file__icon-text"></span> <!-- Data Will be Comes From Js -->
+                            </div>
+
+                            <div id="uploadedFileInfo" class="uploaded-file__info">
+                              <span class="uploaded-file__name"></span>
+                              <span class="uploaded-file__counter"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End File Details -->
+                      </div>
+                      <!-- End Upload Area -->
+
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, expedita.
+                </div>
+                <div class="tab-pane fade" id="v-pills-cominfo" role="tabpanel" aria-labelledby="v-pills-cominfo-tab"
+                  tabindex="0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae esse ipsa fuga culpa, voluptas
+                  corporis et voluptate sequi accusantium. Cupiditate, dolor. Consequuntur, libero nam iure ipsum a sint
+                  laborum tempore!</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
+                  tabindex="0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae esse ipsa fuga culpa, voluptas
+                  corporis et voluptate sequi accusantium. Cupiditate, dolor. Consequuntur, libero nam iure ipsum a sint
+                  laborum tempore!</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
+                  tabindex="0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae esse ipsa fuga culpa, voluptas
+                  corporis et voluptate sequi accusantium. Cupiditate, dolor. Consequuntur, libero nam iure ipsum a sint
+                  laborum tempore!</div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End Reports -->
 
 
       </div>
+
     </section>
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-    <ul class="useful-links text-center">
+    <ul class="useful-links text-center justi">
       <li><a href="#">Site Note</a></li>
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Conditions</a></li>
