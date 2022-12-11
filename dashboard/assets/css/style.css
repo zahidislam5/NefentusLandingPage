@@ -508,8 +508,7 @@ h6 {
 .header-nav {
   position: absolute;
   bottom: 30px;
-  left: 40px;
-  right: 0;
+  left: 25px;
 }
 
 .header-nav ul {
@@ -1292,7 +1291,7 @@ h6 {
 
 /* Produts */
 .pro-box img {
-  width: 10%;
+  width: 15%;
 }
 
 .products .card .pro-box {

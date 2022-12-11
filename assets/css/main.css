@@ -1963,7 +1963,7 @@ section {
 .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 40px;
@@ -2756,13 +2756,13 @@ section {
 }
 
 .btn-get-started i {
-  font-size: 20px;
+  font-size: 16px;
   background: rgb(117, 199, 227);
   border-radius: 10px;
   padding: 14px 20px;
   position: absolute;
   top: 0px;
-  right: -46px;
+  right: -35px;
 }
 
 .btn-full i {
@@ -3184,7 +3184,7 @@ input[type='password'] {
 
 .bi-check-circle-fill {
   color: #8BD2EB;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .link a {
@@ -3234,6 +3234,17 @@ input[type='password'] {
   color: darkgray;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
 /* =========== Mobile ========== */
 
 @media screen and (max-width: 425px) {
@@ -3247,7 +3258,6 @@ input[type='password'] {
 
   .hero p {
     font-size: 15px;
-    text-align: justify;
   }
 
   .btn-get-started i {
@@ -3269,7 +3279,7 @@ input[type='password'] {
   }
 
   .hero .icon-box .title {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .hero .icon-box p {
@@ -3293,7 +3303,7 @@ input[type='password'] {
   }
 
   .sales-box .title {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .sales-box .des {
@@ -3301,7 +3311,7 @@ input[type='password'] {
   }
 
   .payment h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .rec-box {
@@ -3412,6 +3422,14 @@ input[type='password'] {
 
   .low_fees {
     text-align: center;
+  }
+
+  .btn-full i {
+    right: 0;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
   }
 
 }
