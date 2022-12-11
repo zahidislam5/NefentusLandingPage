@@ -1038,7 +1038,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   color: #343642B2;
 }
@@ -1955,7 +1955,7 @@ section {
 .hero p {
   color: #FFFFFFB2;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 18px;
 }
 
@@ -2029,7 +2029,7 @@ section {
 }
 
 .hero .icon-box {
-  padding: 60px 30px;
+  padding: 30px 30px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -2777,7 +2777,7 @@ section {
 }
 
 .star-icon {
-  margin-left: 20px;
+  padding-bottom: 10px;
 }
 
 .star-icon i {
@@ -2830,7 +2830,7 @@ section {
 .sales-box .title {
   font-size: 30px;
   font-weight: 600;
-  padding: 20px 0px;
+  padding-bottom: 20px;
   color: #343642;
 }
 
@@ -3150,6 +3150,7 @@ input[type='password'] {
   background: #F3F4F5;
   border-radius: 40px;
   padding: 30px;
+  height: 100%;
 }
 
 .pricing-box h3 {
@@ -3245,15 +3246,43 @@ ul li {
   font-size: 14px;
 }
 
+.btn-full {
+  width: 100%;
+}
+
+.padding-bottom {
+  padding-bottom: 60px;
+}
+
+.app-button {
+  display: none;
+}
+
 /* =========== Mobile ========== */
 
 @media screen and (max-width: 425px) {
+  .star-icon {
+    display: none;
+  }
+
+  .app-button {
+    display: block;
+  }
+
+  .pricing-box {
+    height: auto;
+  }
+
   .lowfees {
-    width: 35%;
+    width: 25%;
   }
 
   .img-bg {
     margin: 10px;
+  }
+
+  .btn-full {
+    width: auto;
   }
 
   .hero p {
@@ -3279,11 +3308,11 @@ ul li {
   }
 
   .hero .icon-box .title {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .hero .icon-box p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .rectengle {
@@ -3304,14 +3333,16 @@ ul li {
 
   .sales-box .title {
     font-size: 16px;
+    padding: 10px 0px;
   }
 
   .sales-box .des {
     font-size: 15px;
+    padding-bottom: 0;
   }
 
   .payment h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .rec-box {
@@ -3323,7 +3354,7 @@ ul li {
   }
 
   .heading-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .heading-des {
@@ -3424,12 +3455,27 @@ ul li {
     text-align: center;
   }
 
-  .btn-full i {
-    right: 0;
-  }
 
   .footer .copyright {
     font-size: 12px;
+  }
+
+  .services .service-item {
+    padding: 20px;
+  }
+
+  .services .service-item h3 {
+    font-size: 16px;
+  }
+
+  .bg-light {
+    background: #fff !important;
+    color: #000;
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
   }
 
 }
