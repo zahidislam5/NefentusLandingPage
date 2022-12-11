@@ -702,6 +702,11 @@ h6 {
   background-color: #aab7cf;
 }
 
+.mini-logo {
+  display: none;
+}
+
+
 @media (min-width: 1200px) {
 
   #main,
@@ -724,7 +729,38 @@ h6 {
   }
 
   .toggle-sidebar .sidebar {
-    left: -300px;
+    left: 0px;
+    width: 80px;
+  }
+
+  .toggle-sidebar .sidebar .sidebar-nav .nav-link span {
+    display: none;
+  }
+
+  .toggle-sidebar .main-logo {
+    display: none;
+  }
+
+  .toggle-sidebar .mini-logo {
+    display: block;
+  }
+
+  .toggle-sidebar .sidebar .sidebar-nav .nav-link {
+    font-size: 15px;
+    padding: 8px 12px;
+  }
+
+  .toggle-sidebar .header-nav {
+    display: none;
+  }
+
+  .toggle-sidebar #main,
+  .toggle-sidebar #footer {
+    margin-left: 80px;
+  }
+
+  .toggle-sidebar .header .toggle-sidebar-btn {
+    margin-left: 30px;
   }
 }
 
