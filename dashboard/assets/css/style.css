@@ -1942,6 +1942,22 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
   color: var(--clr-light-gray);
 }
 
+.pro-settings form input {
+  background: rgba(50, 121, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pro-settings form .form-label {
+  color: #1F2147;
+  font-weight: 500;
+}
+
+
+
+
+
+
 
 /* ======== Mobile ========= */
 
