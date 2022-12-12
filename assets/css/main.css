@@ -2946,7 +2946,6 @@ section {
 }
 
 
-
 /* progress bar css  */
 
 .progressbar {
@@ -3256,6 +3255,10 @@ ul li {
 
 .app-button {
   display: none;
+}
+
+.signup-form h2 {
+  font-size: 25px;
 }
 
 /* =========== Mobile ========== */

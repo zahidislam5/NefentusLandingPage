@@ -64,6 +64,8 @@ h6 {
   margin-top: 70px;
   padding: 20px 30px;
   transition: all 0.3s;
+  height: 80vh;
+  overflow-y: auto;
 }
 
 @media (max-width: 1199px) {
@@ -1984,6 +1986,7 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
     margin: 0px 5px;
     padding: 5px;
     font-size: 10px;
+    white-space: nowrap;
   }
 
   .products .card .pro-box {
