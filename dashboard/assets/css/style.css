@@ -1812,7 +1812,7 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
 }
 
 /* (drop-zoon--over) Modifier Class */
-.drop-zoon--Uploaded {}
+
 
 .drop-zoon--Uploaded .drop-zoon__icon,
 .drop-zoon--Uploaded .drop-zoon__paragraph {
@@ -1948,12 +1948,12 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
 @media (max-width: 450px) {
   .pro_btn {
     margin: 0px 10px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1;
   }
 
   div.radio-with-Icon p.radioOption-Item {
-    width: 100px;
+    width: 117px;
   }
 
   .radioOption-Item img {
@@ -1967,6 +1967,7 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
   .logout {
     margin: 0px 5px;
     padding: 5px;
+    font-size: 10px;
   }
 
   .products .card .pro-box {
@@ -1986,6 +1987,7 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
   .header {
     background: #fff;
     padding-left: 5px;
+    height: 60px;
   }
 
   .pagetitle {
@@ -1998,10 +2000,52 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
 
   .upload-area {
     height: auto;
+    margin-top: 10px;
   }
 
   .pro-settings .card {
     height: auto;
   }
+
+  .products h5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .trans p {
+    padding: 0;
+    margin: 0 0px;
+    font-size: 12px;
+  }
+
+  .products .card-body {
+    padding: 20px;
+  }
+
+  .products .input-group {
+    margin-bottom: 10px;
+  }
+
+  .products table thead tr th {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .products table tbody tr td {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .pagetitle {
+    display: none;
+  }
+
+  .drop-zoon__paragraph {
+    font-size: 11px;
+  }
+
+
+
+
 
 }
