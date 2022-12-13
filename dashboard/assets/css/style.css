@@ -260,7 +260,7 @@ h6 {
   border: none;
   background: #FFFFFF;
   box-shadow: 0px 10px 30px 5px rgba(38, 47, 64, 0.05);
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .card-header,
@@ -913,7 +913,7 @@ h6 {
 
 /* Info Cards */
 .dashboard .info-card {
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .dashboard .info-card h6 {
@@ -1590,11 +1590,12 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
 
 .custom-pay .number {
   background: rgba(31, 33, 71, 0.08);
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 10px 0px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .qr-code {
