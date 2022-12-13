@@ -442,6 +442,7 @@ h6 {
   font-size: 32px;
   cursor: pointer;
   color: #80d0e9;
+  margin-left: -20px;
 }
 
 .header .search-bar {
@@ -1406,7 +1407,7 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 20px 0;
+  padding: 10px 0;
   font-size: 14px;
   transition: all 0.3s;
 }
@@ -1459,7 +1460,6 @@ h6 {
   background: #fff;
   font-size: 14px;
   padding: 5px;
-  margin: 0px 5px;
 }
 
 table thead {
@@ -1469,12 +1469,16 @@ table thead {
 
 table thead tr th {
   padding: 15px 10px !important;
+  font-size: 14px;
+  white-space: nowrap;
 }
 
 table tbody tr td {
   background: #3279FF0D !important;
   margin: 5px 0px !important;
   padding: 15px 10px !important;
+  font-size: 13px;
+  white-space: nowrap;
 }
 
 tbody tr {
@@ -1484,7 +1488,7 @@ tbody tr {
 /* custom radio button */
 
 div.radio-with-Icon {
-  display: block;
+  display: flex;
 }
 
 div.radio-with-Icon p.radioOption-Item {
@@ -1971,7 +1975,7 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
   }
 
   div.radio-with-Icon p.radioOption-Item {
-    width: 117px;
+    width: 120px;
   }
 
   .radioOption-Item img {
@@ -2062,6 +2066,11 @@ div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
   .drop-zoon__paragraph {
     font-size: 11px;
   }
+
+  div.radio-with-Icon {
+    flex-wrap: wrap;
+  }
+
 
 
 

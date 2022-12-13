@@ -1967,7 +1967,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 40px;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.3s;
   color: #fff;
   background: var(--button-color);
@@ -2035,7 +2035,7 @@ section {
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 40px;
+  border-radius: 20px;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -2758,7 +2758,7 @@ section {
 .btn-get-started i {
   font-size: 16px;
   background: rgb(117, 199, 227);
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 14px 20px;
   position: absolute;
   top: 0px;
@@ -2787,7 +2787,7 @@ section {
 
 .rectengle {
   background: #37419A;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 30px;
 }
 
@@ -2817,13 +2817,13 @@ section {
 
 .sales-box {
   background: #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 50px;
 }
 
 .img-bg2 {
   background: #F3F4F5;
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 20px;
 }
 
@@ -2848,7 +2848,7 @@ section {
 
 .rec-box {
   background: #F3F4F5;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
 }
 
@@ -2863,7 +2863,7 @@ section {
 
 .rectengle-bg {
   background: #fff;
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 80px;
 }
 
@@ -3078,7 +3078,7 @@ section {
 
 .checkout-box {
   background: #FFFFFF;
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 40px;
 }
 
@@ -3147,7 +3147,7 @@ input[type='password'] {
 
 .pricing-box {
   background: #F3F4F5;
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 30px;
   height: 100%;
 }
@@ -3247,6 +3247,7 @@ ul li {
 
 .btn-full {
   width: 100%;
+  text-align: center;
 }
 
 .padding-bottom {
@@ -3268,12 +3269,29 @@ ul li {
     display: none;
   }
 
+  .pf-mobile {
+    margin-top: 20px;
+  }
+
   .app-button {
     display: block;
   }
 
   .pricing-box {
     height: auto;
+  }
+
+  .sales-box h4 {
+    font-size: 15px;
+  }
+
+  .contact-box {
+    padding: 0;
+  }
+
+  .contact i {
+    font-size: 20px;
+    padding-bottom: 10px;
   }
 
   .lowfees {
@@ -3295,7 +3313,7 @@ ul li {
   .btn-get-started i {
     font-size: 14px;
     background: rgb(117, 199, 227);
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
     top: 0px;
     right: -20px;
@@ -3318,16 +3336,29 @@ ul li {
     font-size: 14px;
   }
 
-  .rectengle {
-    margin-bottom: 20px;
-  }
 
   .btn-get-started.signup {
     padding-right: 70px;
   }
 
   .rectengle h2 {
-    padding: 20px 0px;
+    padding: 10px 0px;
+    margin-bottom: 0;
+  }
+
+  .hero .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #f3f4f5;
+  }
+
+  .icon-boxes .gy-4,
+  .icon-boxes .mt-5 {
+    margin-top: 0;
   }
 
   .sales-box {
@@ -3414,7 +3445,6 @@ ul li {
   }
 
   .pricing-box {
-    margin-top: 10px;
     text-align: left;
   }
 
@@ -3434,7 +3464,7 @@ ul li {
     padding: 20px;
   }
 
-  .fw-semibold {
+  .signup-form h2 {
     font-size: 20px;
   }
 
