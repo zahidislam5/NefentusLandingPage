@@ -3511,4 +3511,8 @@ ul li {
     width: 100%;
   }
 
+  .pricing-box .invisible {
+    display: none;
+  }
+
 }
