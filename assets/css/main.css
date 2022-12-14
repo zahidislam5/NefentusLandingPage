@@ -1007,7 +1007,7 @@ section {
   padding: 40px;
   background: #f3f4f5;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .services .service-item .icon {
@@ -2035,7 +2035,7 @@ section {
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 20px;
+  border-radius: 15px;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -2750,7 +2750,7 @@ section {
 
 .img-bg {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 40px;
+  border-radius: 15px;
   padding: 50px;
   margin: 20px 0px 20px 20px;
 }
@@ -2787,7 +2787,7 @@ section {
 
 .rectengle {
   background: #37419A;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 30px;
 }
 
@@ -2817,15 +2817,14 @@ section {
 
 .sales-box {
   background: #fff;
-  border-radius: 20px;
-  padding: 50px;
+  border-radius: 15px;
+  padding: 30px;
 }
 
-.img-bg2 {
-  background: #F3F4F5;
-  border-radius: 20px;
+/* .img-bg2 {
+  border-radius: 15px;
   padding: 20px;
-}
+} */
 
 .sales-box .title {
   font-size: 30px;
@@ -2848,7 +2847,7 @@ section {
 
 .rec-box {
   background: #F3F4F5;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 10px;
 }
 
@@ -2863,8 +2862,8 @@ section {
 
 .rectengle-bg {
   background: #fff;
-  border-radius: 20px;
-  padding: 80px;
+  border-radius: 15px;
+  padding: 30px;
 }
 
 .heading-text {
@@ -2942,7 +2941,11 @@ section {
   background: #F8FAFE;
   border-radius: 8px;
   padding: 20px;
+}
 
+.contact-box p {
+  margin: 0;
+  font-size: 14px;
 }
 
 
@@ -3078,7 +3081,7 @@ section {
 
 .checkout-box {
   background: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 40px;
 }
 
@@ -3147,7 +3150,7 @@ input[type='password'] {
 
 .pricing-box {
   background: #F3F4F5;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 30px;
   height: 100%;
 }
@@ -3230,7 +3233,7 @@ input[type='password'] {
 }
 
 .legal {
-  font-size: 13px;
+  font-size: 11px;
   color: darkgray;
 }
 
@@ -3242,7 +3245,7 @@ ul {
 ul li {
   list-style: none;
   padding: 5px 0px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .btn-full {
@@ -3283,10 +3286,11 @@ ul li {
 
   .sales-box h4 {
     font-size: 15px;
+    margin-top: 10px;
   }
 
   .contact-box {
-    padding: 0;
+    padding: 10px;
   }
 
   .contact i {
@@ -3362,7 +3366,7 @@ ul li {
   }
 
   .sales-box {
-    padding: 30px;
+    padding: 20px;
   }
 
   .sales-box .title {
