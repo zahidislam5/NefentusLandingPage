@@ -1946,7 +1946,7 @@ section {
 }
 
 .hero h2 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
@@ -2003,7 +2003,7 @@ section {
 
 @media (max-width: 640px) {
   .hero h2 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .hero .btn-get-started,
