@@ -64,7 +64,7 @@ h6 {
   margin-top: 70px;
   padding: 20px 30px;
   transition: all 0.3s;
-  height: 80vh;
+  height: 90vh;
   overflow-y: auto;
 }
 
@@ -712,8 +712,7 @@ h6 {
 
 @media (min-width: 1200px) {
 
-  #main,
-  #footer {
+  #main {
     margin-left: 260px;
   }
 }
@@ -1406,10 +1405,13 @@ h6 {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+
 .footer {
   padding: 10px 0;
   font-size: 14px;
   transition: all 0.3s;
+  margin-top: 20px;
 }
 
 .footer .copyright {

@@ -2962,7 +2962,7 @@ section {
   width: 100%;
   text-align: center;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 16px;
   color: rgba(52, 54, 66, 0.4);
 }
 
@@ -3035,6 +3035,9 @@ section {
   border-radius: 20px 0px 0px 20px;
 }
 
+.checkout-feature img {
+  width: 100%;
+}
 
 .checkout-feature.active {
   background: #8BD2EB;
@@ -3087,9 +3090,8 @@ section {
 
 .checkout-box h1 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   color: #343642;
-  font-family: 'Poppins';
   font-style: normal;
 
 }
@@ -3123,7 +3125,7 @@ input[type='password'] {
 
 .order-overview table tr td {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: rgba(52, 54, 66, 0.7);
   border-bottom: 1px dashed rgba(52, 54, 66, 0.2);
   padding: 15px 0px;
@@ -3131,7 +3133,7 @@ input[type='password'] {
 
 .order-overview table tr td.price {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   color: #8BD2EB;
   text-align: right;
 }
@@ -3142,6 +3144,7 @@ input[type='password'] {
 
 .total-price tr td .total {
   text-align: right;
+  font-size: 18px;
 }
 
 .total-price tr td {
@@ -3441,7 +3444,7 @@ ul li {
   }
 
   .checkout-feature h4 {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .useful-links li a {
@@ -3481,7 +3484,7 @@ ul li {
   }
 
   .rec-box img {
-    width: 80%;
+    width: 60%;
   }
 
   .rectengle p {
@@ -3517,6 +3520,18 @@ ul li {
 
   .pricing-box .invisible {
     display: none;
+  }
+
+  .checkout-feature img {
+    width: 20%;
+  }
+
+  .checkout-feature {
+    padding: 10px;
+  }
+
+  .checkout-feature .p-0 {
+    padding: 10;
   }
 
 }
