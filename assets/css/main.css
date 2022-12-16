@@ -2962,24 +2962,22 @@ section {
   width: 100%;
   text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   color: rgba(52, 54, 66, 0.4);
 }
 
 /* Circles */
 .progressbar li:before {
   content: '';
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
   border: 1px solid #DCF2F9;
   display: block;
   text-align: center;
   margin: 0 auto 10px auto;
   border-radius: 50%;
   background-color: #8BD2EB;
-
-  /* Center # in circle */
-  line-height: 39px;
+  line-height: 28px;
 }
 
 .progressbar li:after {
