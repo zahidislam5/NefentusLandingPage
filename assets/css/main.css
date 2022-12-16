@@ -3031,19 +3031,23 @@ section {
 
 .checkout-feature {
   background: #F3F4F5;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px 0px 0px 20px;
 }
 
 .checkout-feature img {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  display: block;
 }
 
 .checkout-feature.active {
   background: #8BD2EB;
+  padding: 18px;
 }
 
 .checkout-box {
+
   padding: 45px;
 }
 
@@ -3057,8 +3061,12 @@ section {
 
 .checkout-feature h4 {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(52, 54, 66, 0.8);
+}
+
+.p15 {
+  padding: 18px;
 }
 
 .right-redius {
@@ -3085,7 +3093,7 @@ section {
 .checkout-box {
   background: #FFFFFF;
   border-radius: 15px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .checkout-box h1 {
@@ -3524,6 +3532,7 @@ ul li {
 
   .checkout-feature img {
     width: 20%;
+    display: inline-block;
   }
 
   .checkout-feature {
@@ -3532,6 +3541,14 @@ ul li {
 
   .checkout-feature .p-0 {
     padding: 10;
+  }
+
+  .checkout-box .p-0 {
+    padding: 10px !important;
+  }
+
+  .checkout-feature.active {
+    padding: 10px;
   }
 
 }
