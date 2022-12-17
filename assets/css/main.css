@@ -3294,7 +3294,7 @@ ul li {
   }
 
   .sales-box h4 {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
   }
 
@@ -3430,7 +3430,7 @@ ul li {
   }
 
   .checkout-box {
-    padding: 20px;
+    padding: 5px 20px;
   }
 
   .rectengle {
@@ -3535,7 +3535,7 @@ ul li {
 
   .checkout-feature {
     padding: 5px 10px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     border-radius: 10px !important;
   }
 
