@@ -3041,7 +3041,7 @@ section {
 
 .checkout-feature.active {
   background: #8BD2EB;
-  padding: 18px;
+  padding: 13px;
 }
 
 .checkout-box {
@@ -3534,19 +3534,19 @@ ul li {
   }
 
   .checkout-feature {
+    padding: 5px 10px;
+  }
+
+  .checkout-feature .px-0 {
     padding: 10px;
   }
 
-  .checkout-feature .p-0 {
-    padding: 10;
-  }
-
-  .checkout-box .p-0 {
+  .checkout-box .px-0 {
     padding: 10px !important;
   }
 
   .checkout-feature.active {
-    padding: 10px;
+    padding: 12px;
   }
 
 }

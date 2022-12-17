@@ -82,7 +82,7 @@
               <div class="sales-box checkout-box">
                 <div class="row align-items-center">
                   <div class="col-lg-4 checkout-feature active">
-                    <div class="checkout-feature active p15">
+                    <div class="checkout-feature active">
                       <div class="row align-items-center">
                         <div class="col-lg-3">
                           <img src="./assets/img/Transparent.png" alt="">
@@ -94,7 +94,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 p-0 checkout-feature">
+                  <div class="col-lg-4 px-0 checkout-feature rounded-0">
                     <div class="checkout-feature rounded-0">
                       <div class="row align-items-center">
                         <div class="col-lg-3">
@@ -102,15 +102,14 @@
                         </div>
                         <div class="col-lg-9">
                           <h4>Secured and encrypted data transmission:</h4>
-                          <p>This website protects your private information with an
-                            SSL/TLS certificate. Information exchanged with an
+                          <p>Information exchanged with an
                             address that begins with https is encrypted with SSL/TLS.</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 checkout-feature right-redius">
-                    <div class="checkout-feature right-redius p15">
+                    <div class="checkout-feature right-redius">
                       <div class="row align-items-center">
                         <div class="col-lg-3">
                           <img src="./assets/img/support.png" alt="">
@@ -178,77 +177,80 @@
       </div>
     </section>
 
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="checkout-box">
-              <h1 class="pb-2">Step 1: Contact Details</h1>
-              <hr>
+    <section>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="checkout-box">
+                <h1 class="pb-2">Step 1: Contact Details</h1>
+                <hr>
 
-              <form>
+                <form>
 
-                <div class="my-4">
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="inlineCheckbox1" name="inlineCheckbox"
-                      value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Private citizen</label>
+                  <div class="my-4">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="inlineCheckbox1" name="inlineCheckbox"
+                        value="option1">
+                      <label class="form-check-label" for="inlineCheckbox1">Private citizen</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="inlineCheckbox2" name="inlineCheckbox"
+                        value="option2">
+                      <label class="form-check-label" for="inlineCheckbox2">Company</label>
+                    </div>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="inlineCheckbox2" name="inlineCheckbox"
-                      value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">Company</label>
-                  </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mail address">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="street" name="street" placeholder="Street">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="addressdata" name="addressdata"
+                          placeholder="Additional address data (optional)">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                      </div>
                     </div>
-                    <div class="mb-3">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="E-mail address">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="street" name="street" placeholder="Street">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="addressdata" name="addressdata"
-                        placeholder="Additional address data (optional)">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                    <div class="col-lg-6">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="surname" name="surname" placeholder="Surname">
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select">
+                          <option selected>Country</option>
+                          <option value="USA">USA</option>
+                          <option value="Canada">Canada</option>
+                          <option value="Bangladesh">Bangladesh</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="housenum" name="housenum"
+                          placeholder="House Number">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="postcode" name="postcode" placeholder="Post code">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="state" name="state" placeholder="State/Region">
+                      </div>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="surname" name="surname" placeholder="Surname">
-                    </div>
-                    <div class="mb-3">
-                      <select class="form-select">
-                        <option selected>Country</option>
-                        <option value="USA">USA</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Bangladesh">Bangladesh</option>
-                      </select>
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="housenum" name="housenum" placeholder="House Number">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="postcode" name="postcode" placeholder="Post code">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="state" name="state" placeholder="State/Region">
-                    </div>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section>
       <div class="container">
