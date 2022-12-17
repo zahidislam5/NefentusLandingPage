@@ -3535,6 +3535,8 @@ ul li {
 
   .checkout-feature {
     padding: 5px 10px;
+    margin: 10px 0px;
+    border-radius: 10px !important;
   }
 
   .checkout-feature .px-0 {
